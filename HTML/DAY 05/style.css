@@ -1,0 +1,28 @@
+h1 {
+  color: blue;
+}
+#first-head {
+  color: green;
+}
+.img {
+  border: 2px solid blue;
+}
+span {
+  color: green;
+  font-weight: bolder;
+}
+#spec-span {
+  color: yellow;
+  font-weight: bolder;
+}
+#Jurney-span {
+  color: blue;
+  font-weight: bolder;
+  font-style: italic;
+}
+#list-style {
+  font-style: italic;
+}
+#overline {
+  text-decoration: line-through;
+}
