@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @media (min-width: 768px) {
+        .header,
+        .footer {
+          background-color: black;
+          color: white;
+          padding: 20px;
+          text-align: center;
+        }
+        .content {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .sidebar {
+          background-color: brown;
+          color: black;
+          float: left;
+          width: 30%;
+          height: 30px;
+          margin-left: 120px;
+          padding: 10px 0px 0px 0px;
+        }
+        .mainbar {
+          background-color: blue;
+          color: black;
+          float: right;
+          width: 50%;
+          padding: 10px 0px 0px 0px;
+        }
+      }
+      @media (max-width: 767px) {
+        .header,
+        .footer {
+          background-color: black;
+          color: white;
+          text-align: center;
+          padding: 20px;
+        }
+
+        .mainbar {
+          background-color: lightgreen;
+          padding: 10px;
+          /* text-align: center; */
+          margin: 6px 18px;
+        }
+        .sidebar {
+          padding: 10px;
+          background-color: lightgreen;
+          /* text-align: center; */
+          margin: 6px 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">Responsive Layout</div>
+    <div class="content">
+      <div class="sidebar">SideBar Content</div>
+      <div class="mainbar">Main Content</div>
+    </div>
+    <div class="footer">Footer Content</div>
+  </body>
+</html>
