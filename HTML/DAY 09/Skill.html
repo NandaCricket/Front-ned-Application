@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nanda Kishore's front-end developer portfolio showcasing skills, projects, and contact information."
+    />
+    <title>Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: rgb(169, 88, 88);
+        padding: 10px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      .lists {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin: 0 5px;
+        padding: 10px;
+        background-color: rgb(135, 135, 215);
+        color: white;
+        border-radius: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .home-container {
+        padding: 30px 60px;
+        color: white;
+      }
+      .image {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+      }
+      .marquee {
+        display: flex;
+        padding-left: 380px;
+        color: yellowgreen;
+        flex-grow: 0.5;
+      }
+
+      footer {
+        background-color: rgb(169, 88, 88);
+        padding: 19px;
+        text-align: center;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+      main {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 50px;
+        background-color: aqua;
+      }
+      section {
+        border: 2px solid lightblue;
+        border-radius: 10px;
+        margin: 10px;
+        transition: 0.5s;
+        width: 500px;
+        text-align: center;
+      }
+      section:hover {
+        background-color: lightblue;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <ul class="lists">
+            <li><a href="./Home.html">HOME</a></li>
+            <li><a href="./Skill.html">SKILLS</a></li>
+            <li><a href="./Project.html">PROJECTS</a></li>
+            <li><a href="./Contact.html">CONTACT</a></li>
+          </ul>
+          <div>
+            <div class="marquee">I AM LEARNING FRONTEND DEVELOPMENT</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1>Html</h1>
+        <p>Html is used to Structures the content of web pages.</p>
+      </section>
+      <section>
+        <h1>Css</h1>
+        <p>Css is used for Styles and layouts the web content.</p>
+      </section>
+      <section>
+        <h1>JavaScript</h1>
+        <p>
+          Javascript is a scripting language it is used to Adds interactivity
+          and dynamic features to web pages.
+        </p>
+      </section>
+
+      <section>
+        <h1>React</h1>
+        <p>
+          Component-Based Architecture: React is all about components. You can
+          create reusable, modular components to break down complex UIs into
+        </p>
+      </section>
+      <section>
+        <h1>Redux</h1>
+        <p>
+          Declarative UI: React allows you to build UIs declaratively by
+          describing how your UI sh
+        </p>
+      </section>
+    </main>
+    <footer>© Copyright, This is Nanda Kishore's Portfolio</footer>
+  </body>
+</html>

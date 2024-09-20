@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nanda Kishore's front-end developer portfolio showcasing skills, projects, and contact information."
+    />
+    <title>Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: rgb(169, 88, 88);
+        padding: 10px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+      }
+      .lists {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin: 0 5px;
+        padding: 10px;
+        background-color: rgb(135, 135, 215);
+        color: white;
+        border-radius: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .marquee {
+        display: flex;
+        padding-left: 0px;
+        color: yellowgreen;
+        flex-grow: 0.5;
+      }
+
+      .home-container {
+        padding: 30px 60px;
+        color: white;
+      }
+      .image {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+      }
+      .main-section {
+        text-align: center;
+        padding: 70px 100px;
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(93, 62, 62);
+        color: white;
+      }
+      .image-container,
+      .about {
+        flex: 1;
+        margin: 10px;
+      }
+      .about {
+        text-align: start;
+      }
+      footer {
+        background-color: rgb(169, 88, 88);
+        padding: 19px;
+        text-align: center;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <ul class="lists">
+            <li><a href="./Home.html">HOME</a></li>
+            <li><a href="./Skill.html">SKILLS</a></li>
+            <li><a href="./Project.html">PROJECTS</a></li>
+            <li><a href="./Contact.html">CONTACT</a></li>
+          </ul>
+          <div>
+            <div class="marquee">I AM LEARNING FRONTEND DEVELOPMENT</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article>
+          <div class="main-section">
+            <div class="image-container">
+              <img
+                src="https://images.pexels.com/photos/19517599/pexels-photo-19517599/free-photo-of-woman-in-red-shirt-standing-with-book-at-library.jpeg?auto=compress&cs=tinysrgb&w=600"
+                class="image"
+                alt="Frontend Developer"
+              />
+              <h1>Frontend Developer</h1>
+              <p>
+                A front-end developer creates and optimizes the visual and
+                interactive elements of websites and applications using HTML,
+                CSS, and JavaScript. They ensure a seamless and engaging user
+                experience across different devices and browsers.
+              </p>
+            </div>
+            <div class="about">
+              <h1>About</h1>
+              <p>
+                A front-end developer builds and refines the user-facing side of
+                websites and applications using HTML, CSS, and JavaScript. They
+                create responsive and accessible layouts that adapt to various
+                devices and screen sizes. Their responsibilities include
+                implementing interactive features, animations, and dynamic
+                content through JavaScript and front-end frameworks like React,
+                Angular, or Vue.js. They ensure cross-browser compatibility,
+                optimizing performance for faster load times and smooth user
+                experiences. Front-end developers also collaborate with UX/UI
+                designers to translate designs into functional web pages and
+                with back-end developers to integrate data and services via
+                APIs. They handle ongoing maintenance, troubleshoot issues, and
+                continuously improve the user interface based on feedback and
+                analytics. Their work ensures that the end-user experience is
+                both engaging and efficient.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>© Copyright, This is Nanda Kishore's Portfolio</footer>
+  </body>
+</html>

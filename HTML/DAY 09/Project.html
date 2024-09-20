@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nanda Kishore's front-end developer portfolio showcasing skills, projects, and contact information."
+    />
+    <title>Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: rgb(169, 88, 88);
+        padding: 10px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      .lists {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin: 0 5px;
+        padding: 10px;
+        background-color: rgb(135, 135, 215);
+        color: white;
+        border-radius: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .home-container {
+        padding: 30px 60px;
+        color: white;
+      }
+      .image {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+      }
+      .marquee {
+        display: flex;
+        padding-left: 480px;
+        color: yellowgreen;
+        flex-grow: 0.5;
+      }
+
+      footer {
+        background-color: rgb(169, 88, 88);
+        padding: 19px;
+        text-align: center;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+      .main {
+        padding: 50px;
+        background-color: grey;
+      }
+      section {
+        background-color: lightseagreen;
+        padding: 20px;
+      }
+      h1 {
+        color: rgb(91, 91, 175);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <ul class="lists">
+            <li><a href="./Home.html">HOME</a></li>
+            <li><a href="./Skill.html">SKILLS</a></li>
+            <li><a href="./Project.html">PROJECTS</a></li>
+            <li><a href="./Contact.html">CONTACT</a></li>
+          </ul>
+          <div>
+            <div class="marquee">I AM LEARNING FRONTEND DEVELOPMENT</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section>
+        <h1>Personal Portfolio Website</h1>
+        <p>
+          Create a personal portfolio website to showcase your skills, projects,
+          and experiences. This site will feature sections like About, Projects,
+          Skills, and Contact. You’ll use React components to build reusable
+          sections, and React Router for navigation between them. Managing form
+          inputs in the contact section can be done with useState. Styling can
+          be handled with CSS Modules or styled-components. For deployment, you
+          can use platforms like GitHub Pages or Vercel. Another project idea is
+          an e-commerce store where users can browse products and add items to a
+          cart. Use Context API or Redux for state management and fetch product
+          data from a REST API. Implement responsive design with CSS
+          Flexbox/Grid and handle checkout forms as controlled components. These
+          projects will enhance your React skills while allowing you to create
+          functional applications
+        </p>
+      </section>
+      <section>
+        <h1>E-Commerce Store</h1>
+        <p>
+          Develop a basic e-commerce application where users can browse
+          products, add items to a cart, and view cart contents. The app will
+          fetch product data from a REST API or a JSON file, allowing for
+          dynamic updates. State management can be achieved using Context API or
+          Redux to handle the global state for products and the shopping cart.
+          Implement React Router to navigate between product listings,
+          individual product details, and the cart page. Focus on creating a
+          responsive design using CSS Flexbox or Grid for a seamless experience
+          across devices. Manage checkout forms with controlled components for
+          user input. You can also integrate a mock payment system for a
+          complete shopping experience. This project will provide practical
+          experience with essential React concepts while building a functional
+          and interactive application.
+        </p>
+      </section>
+    </main>
+    <footer>© Copyright, This is Nanda Kishore's Portfolio</footer>
+  </body>
+</html>

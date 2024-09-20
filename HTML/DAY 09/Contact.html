@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nanda Kishore's front-end developer portfolio showcasing skills, projects, and contact information."
+    />
+    <title>Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: rgb(169, 88, 88);
+        padding: 10px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+      .lists {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin: 0 5px;
+        padding: 10px;
+        background-color: rgb(135, 135, 215);
+        color: white;
+        border-radius: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .marquee-wrapper {
+        overflow: hidden;
+        white-space: nowrap;
+        width: 50%;
+      }
+      .marquee {
+        display: inline-block;
+        padding-left: 100%;
+        animation: marquee 10s linear infinite;
+      }
+      @keyframes marquee {
+        from {
+          transform: translateX(50%);
+        }
+        to {
+          transform: translateY(-50%);
+        }
+      }
+      .home-container {
+        padding: 30px 60px;
+        color: white;
+      }
+      .image {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+      }
+      main {
+        padding: 130px;
+        background-color: beige;
+      }
+      footer {
+        background-color: rgb(169, 88, 88);
+        padding: 19px;
+        text-align: center;
+        color: white;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+      form {
+        background-color: rgb(226, 177, 116);
+        padding: 20px 250px;
+        margin-left: 60px;
+        width: 40%;
+        border-top-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+      }
+      section {
+        padding: 20px;
+      }
+      .marquee {
+        display: flex;
+        padding-left: 380px;
+        color: yellowgreen;
+        flex-grow: 0.5;
+      }
+
+      input {
+        padding: 9px;
+        border-radius: 10px;
+        border: 2px solid blue;
+        color: blue;
+        font-style: italic;
+        font-size: 16px;
+      }
+      .button {
+        width: 500px;
+      }
+      button {
+        padding: 10px;
+        margin-left: 50px;
+        border-radius: 10px;
+        background-color: aqua;
+        color: green;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <ul class="lists">
+            <li><a href="./Home.html">HOME</a></li>
+            <li><a href="./Skill.html">SKILLS</a></li>
+            <li><a href="./Project.html">PROJECTS</a></li>
+            <li><a href="./Contact.html">CONTACT</a></li>
+          </ul>
+          <div>
+            <div class="marquee">I AM LEARNING FRONTEND DEVELOPMENT</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <form>
+        <section>
+          <label>Name :</label>
+          <input type="text" placeholder="Enter Name" />
+        </section>
+        <section>
+          <label>Email :</label>
+          <input type="text" value="@gmail.com" placeholder="Enter Name" />
+        </section>
+        <section>
+          <label>Phone :</label>
+          <input type="number" placeholder="Mobile Number" />
+        </section>
+        <div class="button">
+          <button>Accept</button>
+          <button>Decline</button>
+        </div>
+      </form>
+    </main>
+    <footer>© Copyright, This is Nanda Kishore's Portfolio</footer>
+  </body>
+</html>
